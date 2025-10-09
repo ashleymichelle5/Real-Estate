@@ -17,13 +17,14 @@ import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
 
+
 export const assets = {
     logo,
     logo_dark,
     cross_icon,
     menu_icon,
     star_icon,
-    header_img,
+    /**header_img,*/
     brand_img,
     project_img_1,
     project_img_2,
