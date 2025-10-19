@@ -1,5 +1,5 @@
 import React, { use } from 'react'
-import logo from '../assets/logo.svg'
+
 import menu_icon from '../assets/menu_icon.svg'
 import cross_icon from '../assets/cross_icon.svg'
 import { useState, useEffect } from 'react'
@@ -21,7 +21,6 @@ useEffect(() => {
   return (
     <div className='absolute top-0 left-0 w-full z-10'>
       <div className='container mc-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
-        <img src={logo} alt=""/>
         <ul className='hidden md:flex gap-7 text-white '>
           <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
           <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
