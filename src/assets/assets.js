@@ -34,37 +34,37 @@ export const projectsData = [
     {
       title: "Leonia",
       price: "$900,000",
-      location: "Single Family",
+      type: "Single Family",
       image: project_img_1
     },
     {
       title: "Rutherford",
       price: "$665,000",
-      location: "Single Family",
+      type: "Single Family",
       image: project_img_2
     },
     {
       title: "Union City",
       price: "$760,000",
-      location: "Condominium",
+      type: "Condominium",
       image: project_img_3
     },
     {
       title: "Passaic",
       price: "$585.000",
-      location: "Single Family",
+      type: "Single Family",
       image: project_img_4
     },
     {
       title: "Teanack",
       price: "$4,700",
-      location: "Rental",
+      type: "Rental",
       image: project_img_5
     },
     {
       title: "Edgewater",
       price: "$3,300",
-      location: "Rental",
+      type: "Rental",
       image: project_img_6
     },
     
@@ -72,28 +72,26 @@ export const projectsData = [
 
   export const testimonialsData = [
     {
-        name: "Donald Jackman",
+        name: "Sea Na",
         title: "Marketing Manager",
         image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
+        alt: "Portrait of Sea Na",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Incredible agent and was patient with our investors and group for 6 months. Went above and beyond as an agent to help our team out finding the place. Truly a pleasure and will be working with Joseph in the near future again. Pleasure and thank you"
     },
     {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
+        name: "Anabelle Roa",
         image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
-        rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-    },
-    {
-        name: "James Washington",
-        title: "Co-Founder",
-        image: profile_img_3,
-        alt: "Portrait of James Washington",
+        alt: "Portrait of Anabelle Roa",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Joe is an amazing agent! He did an outstanding job assisting us with the purchase of our first home. He actually listened to our needs, our wants and most importantly our budget and found us our dream home. He was/is extremely professional and patient and never made us feel that we were wasting his time..."
+    }, 
+    {
+        name: "Maksat Sadyrov",
+        image: profile_img_3,
+        alt: "Portrait of Maksat Sadyrov",
+        rating: 5,
+        text: "Working with Joseph was a fantastic experience. His expertise, responsiveness, and attention to detail made the whole process seamless. Highly recommend!!"
     }
 ];
 
