@@ -9,12 +9,21 @@ const About = () => {
     transition={{duration:1}}
     whileInView={{opacity:1, x:0}}
     viewport={{once:true}}
-    className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px32 w-full overflow-hidden' id='About'>
+    className='flex flex-col items-center justify-center container mx-auto pb-0 pt-14 md:px-20 lg:px32 w-full overflow-hidden' id='About'>
       <h1 className='text-2xl sm:text-4xl font-bold mb-2'>About <span className='underline underline-offset-4 decoration-1 under font-light'>Me</span></h1>
       <p className='text-gray-500 max-w-80 text-center mb-8'>Driven by passion. Focused on helping Real Estate needs. </p>
-      <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20 mt-6'>
+      <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20 mt-3'>
         <img src={brand_img} alt="" className='w-full sm:w-1/2 max-w-lg object-cover -mt-4'
           style={{ borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%' }}/>
+        {/* <img 
+  src={brand_img} 
+  alt="" 
+  className='w-96 h-96 object-cover '
+  style={{ 
+    borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%',
+    boxShadow: '0 10px 40px rgba(0, 0, 0, 0.2), 0 30px 80px rgba(0, 0, 0, 0.3)'
+  }}
+/> */}
         <div className='flex flex-col items-center md:items-start mt-10 text-gray-600'>
             <div className='grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28'>
                 <div>

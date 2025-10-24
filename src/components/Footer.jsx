@@ -21,16 +21,16 @@ const Footer = () => {
           <h3 className='text-white text-lg font-bold mb-4'>Get In Touch</h3>
             <div className='space-y-3 text-gray-400'>
               <p className='flex items-center gap-2'>
-                <span>📞</span> (347) 856-8182
+                <span>📞</span>  <a href="tel:+13478568182">Call Now (347)856-8182</a>
               </p>
               <p className='flex items-center gap-2'>
-                <span>✉️</span> josephlee8182@gmail.com
+                <span>✉️</span> <a href="mailto:josephlee8182@gmail.com">josephlee8182@gmail.com</a>
               </p>
               <p className='flex items-center gap-2'>
-                <span>📍</span> 4531 Broadway Union City, NJ 07087
+                <span>📍</span> <a href="https://maps.app.goo.gl/Ca8zLuacg9A6LkXn8">4531 Broadway Union City, NJ 07087 </a> 
               </p>
               <p className='flex items-center gap-2'>
-                <span>@</span>   joelee.realestate
+                <span>@</span> <a href="https://www.instagram.com/joelee.realestate/">joelee.realestate</a>  
               </p>
             </div>
       </div>
