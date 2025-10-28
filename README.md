@@ -10,7 +10,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Web3Forms](https://img.shields.io/badge/Web3Forms-Contact-blue?style=for-the-badge)](https://web3forms.com/)
 
-[🌐 Live Demo](https://your-realestate-url.com) • [📂 View Code](https://github.com/ashleymichelle5/Real-Estate) • [📧 Contact](mailto:ashleymsanchez5@gmail.com) 
+[🌐 Live Demo](https://josephleerealtor.com) • [📂 View Code](https://github.com/ashleymichelle5/Real-Estate) • [📧 Contact](mailto:ashleymsanchez5@gmail.com) 
 
 </div>
 
@@ -115,8 +115,8 @@ This website is fully responsive and optimized for:
 
 **Ashley Sanchez**
 
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- 🌐 Portfolio: [ashleymsanchez.com](https://www.ashleymsanchez.com)
+- 💼 LinkedIn: [Ashley Sanchez](https://www.linkedin.com/in/ashley-sanchez-029331390/)
 - 🐙 GitHub: [@ashleymichelle5](https://github.com/ashleymichelle5)
 - 📧 Email: ashleymsanchez05@gmail.com
 
