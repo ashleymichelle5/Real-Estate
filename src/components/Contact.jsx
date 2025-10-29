@@ -42,12 +42,20 @@ const Contact = () => {
 <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
     <div className='flex flex-wrap'>
         <div className='w-full md:w-1/2 text-left'>
-            Your Name
+            Name
             <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name' required/>
         </div>
          <div className='w-full md:w-1/2 text-left md:pl-4'>
-            Your Email
+            Email
             <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="email" name='Email' placeholder='Your Email' required/>
+        </div>
+        <div className='w-full md:w-1/2 text-left'>
+            Phone Number
+            <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="tel" name='Phone Number' placeholder='Your Phone Number' required/>
+        </div>
+         <div className='w-full md:w-1/2 text-left md:pl-4'>
+            Address
+            <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Address' placeholder='Your Address' required/>
         </div>
     </div>
     <div className='my-6 text-left'>
