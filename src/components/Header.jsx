@@ -13,10 +13,14 @@ const Header = () => {
       viewport={{once:true}}
       className='container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white'>
         <h2 className='text-5xl sm:text-6xl md:text[82px] inline-block max-w-3xl font-semibold pt-20'>Real Estate that will move you.</h2>
-        <div className='space-x-6 mt-16'>
+        {/* <div className='space-x-6 mt-16'>
             <a href="#Projects" className='border border-white px-8 py-3 rounded'>Projects</a>
-            <a href="#Contact" className='bg-blue-500 px-8 py-3 rounded'>Contact Me</a>
-        </div>
+            <a href="#Contact" className='bg-blue-500 px-8 py-3 rounded'>Schedule a Free Home Consultation</a>
+        </div> */}
+        <a href="#Contact" className='bg-blue-500 hover:bg-blue-600 px-4 sm:px-8 py-3 rounded-lg text-white font-semibold transition-all duration-300 text-sm sm:text-base inline-block text-center'>
+          <span className='hidden sm:inline'>Schedule a Free Home Consultation</span>
+          <span className='sm:hidden'>Free Consultation</span>
+        </a>
       </motion.div>
     </div>
   )
