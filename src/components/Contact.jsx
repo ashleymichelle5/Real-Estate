@@ -54,8 +54,8 @@ const Contact = () => {
             <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="tel" name='Phone Number' placeholder='Your Phone Number' required/>
         </div>
          <div className='w-full md:w-1/2 text-left md:pl-4'>
-            Address
-            <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Address' placeholder='Your Address' required/>
+            Address (optional)
+            <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Address' placeholder='Your Address'/>
         </div>
     </div>
     <div className='my-6 text-left'>
